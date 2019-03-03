@@ -14,7 +14,11 @@ end
 user_input = "1"
 input_to_index(user_input)
 
-board = [" ", " ", " "]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def update_array_at_with(board, user_input, value="X")
-  array[index] = value
+  board[index] = value
 end
+
+update_array_at_with(board, 1, value="X")
+
+board.include?(X)

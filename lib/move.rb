@@ -15,4 +15,6 @@ user_input = "1"
 input_to_index(user_input)
 
 board = [" ", " ", " "]
-def move(board, user_input, letter="X")
+def update_array_at_with(array, index, value="X")
+  array[index] = value
+end

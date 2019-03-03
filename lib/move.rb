@@ -15,10 +15,8 @@ user_input = "1"
 input_to_index(user_input)
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-def move(board, concerted_input, value="X")
-  board.insert(concerted_input,value)
+def move(board, converted_input, value="X")
+  board.insert(converted_input,value)
 end
 
-move(board, 1, value="X")
-
-board.include?("X")
+move(board, converted_input, value="X")

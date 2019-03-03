@@ -19,6 +19,6 @@ def move(board, concerted_input, value="X")
   board.insert(concerted_input,value)
 end
 
-update_array_at_with(board, 1, value="X")
+move(board, 1, value="X")
 
 board.include?("X")

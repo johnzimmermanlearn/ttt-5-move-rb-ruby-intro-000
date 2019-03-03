@@ -14,5 +14,5 @@ end
 user_input = "1"
 input_to_index(user_input)
 
+board = [" ", " ", " "]
 def move(board, user_input, letter="X")
-  

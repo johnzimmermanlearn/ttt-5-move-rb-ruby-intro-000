@@ -19,4 +19,4 @@ def move(board, converted_input, value="X")
   board.insert(converted_input,value)
 end
 
-move(board, converted_input, value="X")
+move(board, 1, value="X")

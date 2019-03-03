@@ -11,7 +11,6 @@ end
 def input_to_index(user_input)
   converted_input = user_input.to_i - 1
 end
-user_input = "1"
 input_to_index(user_input)
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]

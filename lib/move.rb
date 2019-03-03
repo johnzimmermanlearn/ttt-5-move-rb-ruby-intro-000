@@ -21,4 +21,4 @@ end
 
 update_array_at_with(board, 1, value="X")
 
-board.include?(X)
+board.include?("X")

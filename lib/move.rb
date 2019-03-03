@@ -16,7 +16,7 @@ input_to_index(user_input)
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def update_array_at_with(board, concerted_input, value="X")
-  board[user_input] = value
+  board.insert(concerted_input,value)
 end
 
 update_array_at_with(board, 1, value="X")

@@ -16,7 +16,7 @@ input_to_index(user_input)
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def move(board, converted_input, value="X")
-  board.insert(converted_input,value)
+  board[converted_input] = value
 end
 
 move(board, 1, value="X")

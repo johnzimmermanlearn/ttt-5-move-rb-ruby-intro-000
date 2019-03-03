@@ -15,7 +15,7 @@ user_input = "1"
 input_to_index(user_input)
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-def update_array_at_with(board, concerted_input, value="X")
+def move(board, concerted_input, value="X")
   board.insert(concerted_input,value)
 end
 

@@ -10,3 +10,4 @@ puts "Where would you like to move?"
 input = gets.strip.chomp
 input_to_index(input)
 new_board = move(board,index,value="X")
+display_board(board)

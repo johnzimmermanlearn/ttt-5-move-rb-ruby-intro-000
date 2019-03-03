@@ -19,4 +19,4 @@ def move(board, converted_input, value="X")
   board[converted_input] = value
 end
 
-move(board, 1, value="X")
+#move(board, 1, value="X")

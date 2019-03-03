@@ -11,12 +11,7 @@ end
 def input_to_index(input)
   index = input.to_i - 1
 end
-#user_input = "1"
-#input_to_index(user_input)
 
-#board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def move(board, index, value="X")
   board[index] = value
 end
-
-#move(board, 1, value="X")
